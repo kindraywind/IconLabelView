@@ -68,7 +68,7 @@ import UIKit
     
     //MARK:- Privates
     private func setup() {
-        textLabel.font = UIFont.systemFontOfSize(frame.height)
+        textLabel.font = UIFont.systemFontOfSize(frame.height * 0.9)
         textLabel.baselineAdjustment = UIBaselineAdjustment.AlignCenters
         textLabel.textAlignment = NSTextAlignment.Left
         self.addSubview(textLabel)
